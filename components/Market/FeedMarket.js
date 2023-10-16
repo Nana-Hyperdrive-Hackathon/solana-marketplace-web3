@@ -1,5 +1,4 @@
 import { useRouter } from "next/router";
-import ItemButtons from "./ItemButtons";
 import MarketFoot from "./MarketFoot";
 import ItemHeader from "./ItemHeader";
 
@@ -29,7 +28,7 @@ export default function FeedMarket(props) {
       }
     >
       <ItemHeader avatar={avatar} userAddress={user} title={data.marketName} />
-      {/* <ItemButtons /> */}
+
       <MarketFoot
         marketName={data.marketName}
         marketFocusesOn={data.marketFocusesOn}
