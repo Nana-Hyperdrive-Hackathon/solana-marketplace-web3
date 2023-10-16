@@ -1,9 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import styles from "../../ItemHeader.module.scss";
-import { AiOutlineClose } from "react-icons/ai";
+
 import { getAvatarUrl } from "@/utils/getAvatarUrl";
-import { truncateWallet } from "@/utils/truncate";
 
 export default function ItemHeader(props) {
   const { avatar, userAddress, title } = props;
