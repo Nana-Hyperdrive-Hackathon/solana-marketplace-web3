@@ -7,7 +7,7 @@ import {
   FaShoppingCart,
   FaCashRegister,
   FaStore,
-  FaMoneyBill1Wave,
+  FaMoneyBillWave,
 } from "react-icons/fa";
 
 export const RPC_ENDPOINT =
@@ -28,7 +28,7 @@ export const routeComplete = [
 ];
 
 export const balance = [
-  { text: "Balance", iconName: FaMoneyBill1Wave, route: "/" },
+  { text: "Balance", iconName: FaMoneyBillWave, route: "/" },
 ];
 
 export const routeNoAccount = [

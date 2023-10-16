@@ -9,7 +9,7 @@ import styles from "./NavMenu.module.scss";
 
 import { routeComplete, routeNoAccount } from "@/utils/constants";
 
-import { FaMoneyBill1Wave } from "react-icons/fa";
+import { FaMoneyBillWave } from "react-icons/fa";
 
 export default function NavMenu(props) {
   const { userRealAccountBalance } = props;
@@ -44,7 +44,7 @@ export default function NavMenu(props) {
               <ul>
                 <SaldoItem
                   userRealAccountBalance={userRealAccountBalance}
-                  icon={FaMoneyBill1Wave}
+                  icon={FaMoneyBillWave}
                 />
                 {map(routeComplete, (item) => (
                   <NavItem item={item} />
