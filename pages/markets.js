@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/dist/client/router";
 import MainLayout from "../layouts/MainLayout/";
 
-import FeedMarket from "@/components/Market/FeedMarket";
+import FeedMarket from "@/components/Market/Items/FeedMarket/FeedMarket";
 import { useProfile } from "@/hooks/useProfile";
 import { useProgramState } from "@/hooks/useProgram";
 import { usePostContext } from "@/hooks/usePostProgram";

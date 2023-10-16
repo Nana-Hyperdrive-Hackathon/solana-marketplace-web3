@@ -1,8 +1,8 @@
 import { useRouter } from "next/router";
-import MarketFoot from "./MarketFoot";
-import ItemHeader from "./ItemHeader";
+import MarketFoot from "../MarketFoot/MarketFoot";
+import ItemHeader from "../ItemHeader/ItemHeader";
 
-import styles from "./FeedItem.module.scss";
+import styles from "../../FeedItem.module.scss";
 
 export default function FeedMarket(props) {
   const { avatar, data, key } = props;

@@ -3,7 +3,7 @@ import { HiPlus } from "react-icons/hi";
 import { AiOutlineEdit } from "react-icons/ai";
 //Components
 import MainLayout from "@/layouts/MainLayout/MainLayout";
-import FeedItem from "@/components/Market/feedItem";
+import FeedItem from "@/components/Market/Items/FeedItem/FeedItem";
 //import FeedMarket from "@/components/Market/FeedMarket";
 import FeedMarket from "@/components/Market/MyMarketView/MyMarketView";
 import EditPostModal from "@/components/Market/MarketPost/EditPostForm/EditPostForm";

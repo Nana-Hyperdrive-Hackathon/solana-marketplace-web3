@@ -15,7 +15,6 @@ import MapsMarker from "@/components/Maps/MapsMarker/MapsMarker";
 import MarketView from "@/components/Market/MarketView/MarketView";
 import MarketProductsView from "@/components/Market/MarketProductsView/MarketProductsView";
 
-import FeedItem from "@/components/Market/feedItem";
 import Toast from "@/components/Toast/Toast";
 
 const center = { lat: 19.511567494105133, lng: -99.12669760284929 };

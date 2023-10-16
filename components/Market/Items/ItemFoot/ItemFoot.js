@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import styles from "./ItemFoot.module.scss";
+import styles from "../../ItemFoot.module.scss";
 
 export default function ItemFoot(props) {
   const { title, description, price, priceOffer, available } = props;

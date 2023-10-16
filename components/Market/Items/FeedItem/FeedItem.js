@@ -1,4 +1,8 @@
-import styles from "./FeedItem.module.scss";
+import ItemButtons from "../ItemButtons";
+import ItemFoot from "../ItemFoot";
+import ItemHeader from "../ItemHeader";
+import ItemImage from "../ItemImage";
+import styles from "../../FeedItem.module.scss";
 
 export default function FeedItem(props) {
   const { avatar, data, setEditPostModalOpen, toggleEditPostModal, walletKey } =

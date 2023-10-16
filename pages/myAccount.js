@@ -17,7 +17,7 @@ import CreatePostForm from "@/components/Market/MarketPost/CreatePostForm";
 import CreateMarketForm from "@/components/Market/MarketAccount/CreateMarketForm";
 import CreateShippingModal from "@/components/Account/CreateAccountForm/ShippingAccount/CreateShippingForm";
 import CreateSolanaForm from "@/components/Payment/SolanaPayForm";
-import FeedItem from "@/components/Market/feedItem";
+import FeedItem from "@/components/Market/Items/FeedItem/FeedItem";
 import EditPostForm from "../components/Market/MarketPost/EditPostForm/EditPostForm";
 import MyShipping from "@/components/Account/CreateAccountForm/MyShipping/MyShipping";
 //hooks

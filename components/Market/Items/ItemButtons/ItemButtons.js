@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import styles from "./ItemButtons.module.scss";
-
+import styles from "../../ItemButtons.module.scss";
+import { FaEdit } from "react-icons/fa";
 import useCart from "@/hooks/useCart";
 
 export default function ItemButtons(props) {
