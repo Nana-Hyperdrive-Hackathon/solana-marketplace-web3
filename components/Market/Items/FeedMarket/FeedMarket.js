@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import MarketFoot from "../MarketFoot/MarketFoot";
-import ItemHeader from "../ItemHeader/ItemHeader";
+import ItemHeader from "../ItemHeader";
 
 import styles from "../../FeedItem.module.scss";
 
